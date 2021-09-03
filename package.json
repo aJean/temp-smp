@@ -1,0 +1,28 @@
+{
+  "name": "temp-smp",
+  "version": "0.0.1",
+  "description": "Measure + analyse the speed of your webpack loaders and plugins",
+  "repository": "aJean/temp-smp",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "functional-test": "lerna bootstrap && lerna run full-test",
+    "audit-fix": "npm audit fix && lerna run audit-fix --parallel",
+    "documentation-test": "alex ./*.md && write-good ./*.md",
+    "lint": "prettier --check \"*.{js,json,css,md}\"",
+    "fixlint": "prettier --write \"*.{js,json,css,md}\"",
+    "ac": "all-contributors",
+    "pub": "standard-version && npm publish && git push --follow-tags"
+  },
+  "devDependencies": {
+    "alex": "^9.1.0",
+    "all-contributors-cli": "^6.19.0",
+    "prettier": "^2.2.1",
+    "write-good": "^1.0.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "standard-version": "^9.3.1"
+  },
+  "license": "MIT"
+}
