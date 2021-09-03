@@ -1,6 +1,6 @@
 {
   "name": "temp-smp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Measure + analyse the speed of your webpack loaders and plugins",
   "repository": "aJean/temp-smp",
   "main": "index.js",
